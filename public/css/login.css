@@ -1,0 +1,144 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.background{
+    background: linear-gradient(115.77deg, #1EDDF8 2.85%, #2B0569 98.16%);
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+.chatbox{
+    background-color: linear-gradient(115.77deg, #1EDDF8 2.85%, #2B0569 98.16%);;
+    width: 45vw;
+    height: 100vh;
+}
+.name{
+    text-align: center;
+    position: absolute;
+    top: 240px;
+    width: 45vw;
+    height: 25vh;
+    background-color: linear-gradient(115.77deg, #1EDDF8 2.85%, #2B0569 98.16%);
+}
+
+.letter1{
+    font-size: 500%;
+    font-weight: normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #000000 ;
+    text-decoration-thickness: 2px ;
+}
+.letter2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #F8CE3C;
+    font-size: 500%;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: underline;
+    text-decoration-color: #000000;
+    text-decoration-thickness: 2px;
+}
+.box{
+    border-radius: 44px;
+    text-align: center;
+    position: absolute;
+    top: 360px;
+    left: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 17vw;
+    height: 13vh;
+    background-color: #F8CE3C;
+    font-size: 450%;
+    font-weight: bold;
+    font-style: normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.data{
+    position: relative;
+    top: 100px;
+    width: 40vw;
+    height: 80vh;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(25px);
+    border-radius: 40px;
+}
+.image{
+    background: rgba(255, 255, 255, 0.1);
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    height:30vh;
+    width: 40vw;
+    text-align: center;
+}
+.image img{
+    border-radius: 80px;
+    margin-top: 25px;
+    width: 160px;
+}
+.login{
+    background-color: rgba(255, 255, 255, 0.1) ;
+    width: 40vw;
+    height: 30vh;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: normal;
+    font-style: normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.login input{
+    position: relative;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-bottom: black 2px solid;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: x-large;
+    height: 6vh;
+    width: 30vw;
+}
+::placeholder{
+    position: absolute;
+    bottom: 0;
+    padding-left: 4px;
+    text-align: left;
+    color: #000000;
+}
+.submit{
+    width: 40vw;
+    height: 20vh;
+    background: rgba(255, 255, 255, 0.1);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    text-align: center;
+}
+.submit button{
+    font-size: xx-large;
+    font-weight: bold;
+    border-color: #F8CE3C;
+    background-color: #F8CE3C;
+    border-width: 0;
+    border-radius: 30px;
+    height: 7vh;
+    width: 10vw;
+}
+
+.join{
+    cursor: pointer;
+}
+
+/* .username{
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-bottom: black 2px solid;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: large;
+    height: 6vh;
+    width: 30vw;
+} */
+
